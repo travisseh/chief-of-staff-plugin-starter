@@ -7,6 +7,15 @@ description: "Manage a Notion task backlog for the chief-of-staff workflow. Use 
 
 Use this skill when the chief-of-staff workflow needs a real task system.
 
+## Getting Started
+
+If this skill is invoked and Notion is not configured yet:
+
+1. Tell the user Notion access is not configured yet.
+2. Point them to `docs/integrations/notion.md`.
+3. Help them connect Notion MCP first.
+4. Keep the real database URL or data source ID in local memory or private config, not tracked files.
+
 ## Recommended Setup
 
 - Use the official Notion MCP connection described in `docs/integrations/notion.md`

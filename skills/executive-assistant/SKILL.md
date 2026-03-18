@@ -31,3 +31,12 @@ This skill powers the chief-of-staff plugin.
 ## Integration Registry
 
 See `skills/executive-assistant/references/integration-registry.md` for the supported tools, commands, and setup notes.
+
+## Getting Started
+
+If this skill is invoked before the integrations exist:
+
+1. Read the integration registry first.
+2. Tell the user which parts of the workflow are configured vs missing.
+3. Point them to the matching docs in `docs/integrations/`.
+4. Continue with the tools that do exist instead of stopping completely.

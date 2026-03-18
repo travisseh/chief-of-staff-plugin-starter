@@ -7,6 +7,15 @@ description: "Run browser-based errands like shopping, booking, tracking package
 
 Use browser automation to handle real-world errands that happen on websites.
 
+## Getting Started
+
+If this skill is invoked and browser automation is not configured yet:
+
+1. Tell the user browser automation is not configured yet.
+2. Point them to `docs/integrations/linkedin.md` if they are already using a browser-automation setup there, or ask what browser tool they want to use.
+3. Confirm they want a web-automation workflow for shopping, booking, tracking, or forms.
+4. Keep the first run read-only where possible.
+
 ## Core Rules
 
 1. Never complete a purchase without explicit approval.

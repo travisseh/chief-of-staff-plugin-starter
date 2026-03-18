@@ -7,6 +7,17 @@ description: "Check and respond to LinkedIn messages and notifications through b
 
 Use browser automation to inspect LinkedIn inboxes and notifications.
 
+## Getting Started
+
+If this skill is invoked and browser automation is not configured yet:
+
+1. Tell the user LinkedIn browser automation is not configured yet.
+2. Point them to `docs/integrations/linkedin.md`.
+3. Explain they will usually need:
+   - a browser automation tool connected to Claude Code
+   - an active logged-in LinkedIn session
+4. Start with reading the inbox before enabling replies.
+
 ## Read First
 
 - `skills/writing-style/SKILL.md`
