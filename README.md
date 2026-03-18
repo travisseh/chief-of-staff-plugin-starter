@@ -8,6 +8,7 @@ It gives you:
 - A reusable daily brief and comms sweep workflow
 - Self-contained backlog and writing-style skills, so the repo does not depend on your global `.claude/skills` folder
 - Setup docs for Google Calendar, Gmail, Slack, Notion, Apple Notes, iMessage, and LinkedIn
+- Install and update guidance for the Claude Code plugin flow, including cache and version-bump gotchas
 - Prompt files you can paste directly into Claude Code to personalize the system
 
 It does **not** ship with your real data, tokens, phone numbers, note IDs, or account names.
@@ -15,11 +16,12 @@ It does **not** ship with your real data, tokens, phone numbers, note IDs, or ac
 ## Fastest Path
 
 1. Open this repo in Claude Code.
-2. Read [CLAUDE.md](./CLAUDE.md).
-3. Paste [01-personalize-chief-of-staff.md](./docs/prompts/01-personalize-chief-of-staff.md) into Claude Code.
-4. Let Claude create your private `state/insights.local.md`.
-5. Paste [02-connect-integrations.md](./docs/prompts/02-connect-integrations.md) to wire in the integrations you want.
-6. Paste [03-first-brief.md](./docs/prompts/03-first-brief.md) to run your first real brief.
+2. If you want to load it as a real Claude Code plugin, start with [00-install-or-update-plugin.md](./docs/prompts/00-install-or-update-plugin.md).
+3. Read [CLAUDE.md](./CLAUDE.md).
+4. Paste [01-personalize-chief-of-staff.md](./docs/prompts/01-personalize-chief-of-staff.md) into Claude Code.
+5. Let Claude create your private `state/insights.local.md`.
+6. Paste [02-connect-integrations.md](./docs/prompts/02-connect-integrations.md) to wire in the integrations you want.
+7. Paste [03-first-brief.md](./docs/prompts/03-first-brief.md) to run your first real brief.
 
 ## Repo Structure
 
@@ -78,13 +80,16 @@ Optional integrations make it materially better:
 
 ## Installation Notes
 
-If you want to use this as a local Claude Code plugin, place the repo at:
+If you just want the prompts and file structure, you can keep this repo anywhere and open it as a normal repo in Claude Code.
 
-```bash
-~/.claude/plugins/chief-of-staff
-```
+If you want to run it as a real Claude Code plugin, keep these gotchas in mind:
 
-If you just want the prompts and file structure, you can keep it anywhere and open it as a normal repo in Claude Code.
+- For the fastest iteration loop, use `claude --plugin-dir /absolute/path/to/chief-of-staff-plugin-starter`. That loads the source repo directly for that session.
+- Cloning into `~/.claude/plugins/` is only a filesystem step. An installed plugin still needs the normal Claude Code `/plugin install` flow through a marketplace.
+- Do not manually edit `~/.claude/plugins/installed_plugins.json`.
+- Run `/plugin validate .` from the repo root before blaming the manifest.
+- Installed plugins are cached copies. After changing commands, skills, agents, or other tracked plugin files, bump `.claude-plugin/plugin.json`, update or reinstall the plugin, and restart Claude Code.
+- If you create a local marketplace entry for this plugin, keep the marketplace version in sync with `.claude-plugin/plugin.json`.
 
 ## Safety Rules
 

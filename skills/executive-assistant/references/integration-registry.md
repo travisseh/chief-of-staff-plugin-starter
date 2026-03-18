@@ -169,3 +169,5 @@ As you customize this starter, add:
 - real note IDs
 - any custom CLIs you build
 - any channels or people that always matter
+
+If you are running this as an installed plugin instead of via `claude --plugin-dir`, remember that edits to this tracked file can require a plugin version bump, update or reinstall, and a Claude Code restart before the installed copy sees them.

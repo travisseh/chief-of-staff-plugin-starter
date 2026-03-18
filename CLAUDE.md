@@ -21,6 +21,16 @@ When a user opens this repo and asks for setup help:
 - When personalizing the system, prefer editing `state/insights.local.md` over hard-coding private facts into command or skill files.
 - Preserve the plugin as a reusable starter. Only replace placeholders in shared files when the change improves the template for everyone.
 
+## Plugin Loading Rules
+
+- If the user wants to run this as a Claude Code plugin, first distinguish between dev mode and installed mode.
+- Recommend `claude --plugin-dir /absolute/path/to/repo` for fast iteration and first-time setup.
+- Treat cloning into `~/.claude/plugins/...` as a location choice, not a full install.
+- Never tell the user to edit `~/.claude/plugins/installed_plugins.json` manually.
+- Run `/plugin validate .` before telling the user the plugin is ready, if that command is available.
+- If the repo is being used via an installed plugin flow and tracked plugin files change, remind the user that installed plugins are cached copies. They may need to bump `.claude-plugin/plugin.json`, update or reinstall the plugin, and restart Claude Code before new commands, skills, or agents show up.
+- If the user creates a local marketplace entry for this plugin, keep its version aligned with `.claude-plugin/plugin.json`.
+
 ## What “Good” Looks Like
 
 - The user can paste one setup prompt and Claude can guide them through the next step.

@@ -9,6 +9,7 @@ Rules:
 3. Use the official setup docs linked in the repo when available.
 4. Keep secrets in local config or environment variables, not tracked files.
 5. After each integration, run one safe verification step before moving on.
+6. If you edit tracked plugin files and I am using an installed plugin rather than `claude --plugin-dir`, tell me whether I need to bump `.claude-plugin/plugin.json`, update or reinstall, and restart Claude Code before expecting those changes to load.
 
 Setup order:
 

@@ -22,7 +22,8 @@ Your job:
 8. Keep daily notes in `state/daily/` private and untracked.
 9. Do not store tokens, OAuth JSON, API keys, phone numbers, note IDs, or other secrets in tracked files.
 10. If you need to document a secret, document where it should live locally, not the secret itself.
-11. Keep shared template files reusable unless a template improvement helps everyone.
+11. If I am running this as an installed plugin instead of via `claude --plugin-dir`, warn me when tracked-file changes may require a plugin version bump, update or reinstall, and a Claude Code restart before they show up.
+12. Keep shared template files reusable unless a template improvement helps everyone.
 
 At the end, show me:
 
