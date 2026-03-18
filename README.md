@@ -34,11 +34,15 @@ chief-of-staff-plugin-starter/
 │   ├── integrations/
 │   └── prompts/
 ├── skills/
-│   ├── errands/
+│   ├── apple-notes/
 │   ├── executive-assistant/
+│   ├── errands/
+│   ├── imessage/
 │   ├── linkedin/
 │   ├── linkedin-voice/
 │   ├── notion-backlog/
+│   ├── slack/
+│   ├── stripe/
 │   └── writing-style/
 └── state/
     ├── daily/

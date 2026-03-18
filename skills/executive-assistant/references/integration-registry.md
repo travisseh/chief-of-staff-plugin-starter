@@ -63,6 +63,10 @@ Expected credential:
 
 - Slack user OAuth token (`xoxp-...`) per workspace
 
+Skill in this repo:
+
+- `skills/slack/SKILL.md`
+
 ## Notion
 
 Recommended approach: official hosted Notion MCP.
@@ -102,6 +106,10 @@ Credential:
 - No API key
 - macOS local database access
 
+Skill in this repo:
+
+- `skills/apple-notes/SKILL.md`
+
 ## iMessage
 
 Expected access pattern:
@@ -117,6 +125,10 @@ Credential:
 - No API key
 - macOS local database access
 - Full Disk Access for your terminal app
+
+Skill in this repo:
+
+- `skills/imessage/SKILL.md`
 
 ## LinkedIn
 
@@ -139,6 +151,14 @@ Local voice skills in this repo:
 
 - General replies: `skills/writing-style/SKILL.md`
 - LinkedIn posts and comments: `skills/linkedin-voice/SKILL.md`
+
+## Stripe
+
+Use Stripe when the chief-of-staff workflow needs revenue, payments, checkout, subscription, or customer context.
+
+Skill in this repo:
+
+- `skills/stripe/SKILL.md`
 
 ## Personalization Notes
 

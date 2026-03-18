@@ -27,3 +27,4 @@ When a user opens this repo and asks for setup help:
 - The user can run a daily brief even with only partial integrations configured.
 - The plugin helps prioritize, not just summarize.
 - The system reflects the user's real priorities and constraints instead of generic productivity advice.
+- Prefer local repo skills over missing global skills when both could apply.
