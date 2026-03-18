@@ -1,0 +1,6 @@
+/.DS_Store
+/state/insights.local.md
+/state/daily/*.md
+!/state/daily/README.md
+/secrets/
+/tmp/

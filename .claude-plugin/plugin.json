@@ -1,0 +1,6 @@
+{
+  "name": "chief-of-staff",
+  "version": "0.1.0",
+  "description": "A customizable chief-of-staff starter plugin for Claude Code. Helps prioritize work, scan communications, prepare daily briefs, and manage optional calendar, email, task, and browser workflows.",
+  "author": { "name": "ClaudeFluent" }
+}
