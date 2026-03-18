@@ -18,8 +18,11 @@ Your job:
    - my writing style
    - which integrations I actually want
 6. Create `state/insights.local.md` with my real answers.
-7. Do not store tokens or secrets in tracked files.
-8. Keep shared template files reusable unless a template improvement helps everyone.
+7. Treat `state/insights.local.md` as my private durable context file and keep my real details there instead of shared template files.
+8. Keep daily notes in `state/daily/` private and untracked.
+9. Do not store tokens, OAuth JSON, API keys, phone numbers, note IDs, or other secrets in tracked files.
+10. If you need to document a secret, document where it should live locally, not the secret itself.
+11. Keep shared template files reusable unless a template improvement helps everyone.
 
 At the end, show me:
 
