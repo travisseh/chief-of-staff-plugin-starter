@@ -21,3 +21,4 @@ No separate API key is required in this starter.
 
 - This is intentionally browser-session based.
 - If LinkedIn asks for login or extra verification, pause and ask the user to complete it.
+- Use [writing-style](../../skills/writing-style/SKILL.md) for DMs and [linkedin-voice](../../skills/linkedin-voice/SKILL.md) for posts or comments.

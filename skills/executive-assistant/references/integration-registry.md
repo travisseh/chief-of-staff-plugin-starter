@@ -84,6 +84,10 @@ Optional self-hosted path:
 
 - Notion local MCP notes: https://developers.notion.com/guides/mcp/hosting-open-source-mcp
 
+Skill in this repo:
+
+- `skills/notion-backlog/SKILL.md`
+
 ## Apple Notes
 
 Expected access pattern:
@@ -126,12 +130,22 @@ Credential:
 - No API key in this starter
 - Active browser session
 
+Local voice skills in this repo:
+
+- `skills/writing-style/SKILL.md`
+- `skills/linkedin-voice/SKILL.md`
+
+## Drafting Skills
+
+- General replies: `skills/writing-style/SKILL.md`
+- LinkedIn posts and comments: `skills/linkedin-voice/SKILL.md`
+
 ## Personalization Notes
 
 As you customize this starter, add:
 
-- Real account nicknames
-- Real workspaces
-- Real note IDs
-- Any custom CLIs you build
-- Any channels or people that always matter
+- real account nicknames
+- real workspaces
+- real note IDs
+- any custom CLIs you build
+- any channels or people that always matter

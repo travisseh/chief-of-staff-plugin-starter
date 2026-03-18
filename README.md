@@ -6,6 +6,7 @@ It gives you:
 
 - A plugin-style folder structure for commands, skills, and agents
 - A reusable daily brief and comms sweep workflow
+- Self-contained backlog and writing-style skills, so the repo does not depend on your global `.claude/skills` folder
 - Setup docs for Google Calendar, Gmail, Slack, Notion, Apple Notes, iMessage, and LinkedIn
 - Prompt files you can paste directly into Claude Code to personalize the system
 
@@ -35,7 +36,10 @@ chief-of-staff-plugin-starter/
 ├── skills/
 │   ├── errands/
 │   ├── executive-assistant/
-│   └── linkedin/
+│   ├── linkedin/
+│   ├── linkedin-voice/
+│   ├── notion-backlog/
+│   └── writing-style/
 └── state/
     ├── daily/
     └── insights.template.md

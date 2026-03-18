@@ -7,6 +7,11 @@ description: "Check and respond to LinkedIn messages and notifications through b
 
 Use browser automation to inspect LinkedIn inboxes and notifications.
 
+## Read First
+
+- `skills/writing-style/SKILL.md`
+- `skills/linkedin-voice/SKILL.md` when the task is a post, comment, or longer-form LinkedIn writing
+
 ## Workflow
 
 1. Open LinkedIn messages.

@@ -37,3 +37,5 @@ Ask Claude Code:
 ```text
 Search my Notion workspace for a page titled "Tasks" and summarize the open items.
 ```
+
+Then wire the task conventions into [skills/notion-backlog/SKILL.md](../../skills/notion-backlog/SKILL.md) or keep the real database details in `state/insights.local.md`.

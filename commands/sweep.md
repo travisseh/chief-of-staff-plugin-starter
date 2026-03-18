@@ -11,6 +11,7 @@ Find the conversations that are waiting on the user, not just the ones that are 
 
 1. Read `state/insights.local.md` if it exists, otherwise `state/insights.template.md`.
 2. Read `skills/executive-assistant/references/integration-registry.md`.
+3. Read `skills/writing-style/SKILL.md` before drafting replies.
 
 ## Rules
 

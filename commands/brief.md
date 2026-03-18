@@ -12,6 +12,8 @@ Build a useful morning brief from the integrations that are actually configured.
 1. Read `state/insights.local.md` if it exists, otherwise `state/insights.template.md`.
 2. Read yesterday's daily note if it exists.
 3. Read `skills/executive-assistant/references/integration-registry.md`.
+4. If Notion is enabled, read `skills/notion-backlog/SKILL.md`.
+5. If drafting replies, read `skills/writing-style/SKILL.md`.
 
 ## Preflight
 

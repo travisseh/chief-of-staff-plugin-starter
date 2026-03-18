@@ -44,3 +44,4 @@ Improve the system only after the first real run:
 - add important people and channels
 - add writing-style rules
 - add stronger send / scheduling guardrails
+- tailor `skills/notion-backlog`, `skills/writing-style`, and `skills/linkedin-voice`
