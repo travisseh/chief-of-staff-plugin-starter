@@ -24,6 +24,10 @@ Core tools:
 - `create-event`
 - `update-event`
 
+Skill in this repo:
+
+- `skills/google-calendar/SKILL.md`
+
 ## Gmail
 
 This starter assumes a small local CLI for Gmail. You can keep the same command shape or replace it with your own equivalent.
@@ -145,12 +149,10 @@ Credential:
 Local voice skills in this repo:
 
 - `skills/writing-style/SKILL.md`
-- `skills/linkedin-voice/SKILL.md`
 
 ## Drafting Skills
 
 - General replies: `skills/writing-style/SKILL.md`
-- LinkedIn posts and comments: `skills/linkedin-voice/SKILL.md`
 
 ## Stripe
 
